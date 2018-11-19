@@ -15,23 +15,23 @@ Name: <input type = „text“ name="Name"><br>
 <br>
 I Say YES! to ...
 <br>
-<select name="Unfug 0">
-     <option value="Burger ">Burger </option>
-     <option value="Hot Dog ">Hot Dog </option>
-     <option value="Spaghetti ">Spaghetti </option>
-     <option value="Donuts ">Donuts </option>
+<select name="Unfug_0">
+     <option value=" Burger "> Burger </option>
+     <option value=" Hot Dog "> Hot Dog </option>
+     <option value=" Spaghetti "> Spaghetti </option>
+     <option value=" Donuts "> Donuts </option>
 </select>
-<select name="Unfug 1">
-     <option value="Brokolli ">Brokolli </option>
-     <option value="Möhre ">Möhre </option>
-     <option value="Staudensellerie ">Staudensellerie </option>
-     <option value="Böhnchen ">Böhnchen </option>
+<select name="Unfug_1">
+     <option value="& Brokolli ">& Brokolli </option>
+     <option value="& Möhre ">& Möhre </option>
+     <option value="& Staudensellerie ">& Staudensellerie </option>
+     <option value="& Böhnchen ">& Böhnchen </option>
 </select>
-<select name="Unfug 1">
-     <option value="Cola ">Cola </option>
-     <option value="Milch ">Milch </option>
-     <option value="Wodka ">Wodka </option>
-     <option value="O-Saft ">O-Saft </option>
+<select name="Unfug_2">
+     <option value="& Cola ">& Cola </option>
+     <option value="& Milch ">& Milch </option>
+     <option value="& Wodka ">& Wodka </option>
+     <option value="& O-Saft ">& O-Saft </option>
 </select>
 
 <br>
