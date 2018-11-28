@@ -1,20 +1,12 @@
 <?php
 $text = urldecode($_REQUEST['Unfug_0']) . " " . urldecode($_REQUEST['Unfug_1']) . " " . urldecode($_REQUEST['Unfug_2']) . "\n";
-
-if (empty($_POST['Name']))
-{
-
-echo "Unbekannter";
-echo file_put_contents("text.txt", $text, FILE_APPEND); 
-}
-
-else {
-
-echo "$_POST['Name']";
-echo file_put_contents("text.txt", $text, FILE_APPEND);
-}
+  file_put_contents("text.txt", $text, FILE_APPEND); 
 ?>
+<?php
+$zusatz = urldecode($_REQUEST['zusatz']) . "\n";
+file_put_contents("zusatz.txt", $zusatz, FILE_APPEND);
 
+?>
 
 <!-- urldecode — Dekodiert eine URL-kodierte Zeichenkette
 -->
